@@ -8,6 +8,13 @@
     
 }
 
+#onepage {
+    background-image: url(img/bridge.jpg);
+    background-size: cover;
+    height: 80vh;
+    background-position: top;
+}
+
 #spring {
     background-image: url(img/spring.jpg);
     background-size: cover;
@@ -62,7 +69,8 @@
 h1 {
     color: white;
     vertical-align: middle;
-    padding-top: 1.5em;
+/*    padding-top: 1.5em;*/
+    line-height: 1.5em;
 }
 
 #spring:hover, #summer:hover, #fall:hover, #winter:hover {
