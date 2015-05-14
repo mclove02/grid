@@ -1,0 +1,83 @@
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.show-grid {
+/*    position: relative;*/
+    
+}
+
+#spring {
+    background-image: url(img/spring.jpg);
+    background-size: cover;
+    height: 40vh;
+}
+
+#summer {
+    background-image: url(img/summer.jpg);
+    background-size: cover;
+    height: 40vh;
+}
+
+#fall {
+    background-image: url(img/fall.jpg);
+    height: 40vh;
+    background-size: cover;
+}
+
+#winter {
+    background-image: url(img/winter.jpg);
+    height: 40vh;
+    background-size: cover;
+}
+
+
+#fall1 {
+    background-color: deepskyblue;
+    height: 30vh;
+    transition-duration: 0.7s;
+}
+
+#fall2 {
+    background-color: salmon;
+    height: 30vh;
+    z-index: 10000;
+    transition-duration: 0.7s;
+}
+
+#fall3 {
+    background-color: lightseagreen;
+    height: 30vh;
+    transition-duration: 0.7s;
+}
+
+#fall4 {
+    background-color: peachpuff;
+    height: 30vh;
+    transition-duration: 0.7s;
+}
+
+
+h1 {
+    color: white;
+    vertical-align: middle;
+    padding-top: 1.5em;
+}
+
+#spring:hover, #summer:hover, #fall:hover, #winter:hover {
+    opacity: .5;
+    transition-duration: 0.3s;
+/*    transition-delay: 1s;*/
+}
+
+#fall1:hover, #fall2:hover, #fall3:hover, #fall4:hover {
+    background: grey;
+    transition-duration: 0.3s;
+}
+
+header, footer {
+    background-color: black;
+    color: white;
+    padding: 1px;
+}
